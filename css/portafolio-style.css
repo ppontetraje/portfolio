@@ -196,13 +196,39 @@ nav > a:hover{
 }
 .item-1{
     width: 75%;
-    animation: csharp 2s ;
+    animation: csharp 2s;
 }
 .item-2{
-    width: 40%;
+    width: 75%;
+    animation: java 2s;
 }
 .item-3{
     width: 50%;
+    animation: python 2s;
+}
+.item-4{
+    width: 85%;
+    animation: netCore 2s;
+}
+.item-5{
+    width: 35%;
+    animation: javascript 2s;
+}
+.item-6{
+    width: 35%;
+    animation: django 2s;
+}
+.item-7{
+    width: 75%;
+    animation: git 2s;
+}
+.item-8{
+    width: 75%;
+    animation: mysql 2s;
+}
+.item-9{
+    width: 50%;
+    animation: postgresql 2s;
 }
 @keyframes csharp{
     0%{
@@ -210,6 +236,70 @@ nav > a:hover{
     }
     100%{
         width: 75%;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes netCore{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 35%;
+    }
+}
+@keyframes django{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 35%;
+    }
+}
+@keyframes git{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes mysql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes postgresql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
     }
 }
 /* PROJECTS */
