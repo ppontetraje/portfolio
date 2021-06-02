@@ -542,6 +542,12 @@ nav > a:hover{
     "img1 img1 img3 img3"
     "img4 img4 img5 img5";
     }
+
+    /* SKILLS */
+    .skills{
+        grid-template-columns: repeat(2,1fr);
+        gap: 7px;
+    }
     /* CONTACT */
     .cards{
         grid-template-columns: 2fr 2fr;
@@ -616,6 +622,10 @@ nav > a:hover{
         "img5";
         height: auto;
 
+    }
+    /* SKILLS */
+    .skills{
+        grid-template-columns: 1fr;
     }
     /* CONTACT */
     .cards{
