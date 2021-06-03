@@ -205,14 +205,14 @@ nav > a:hover{
 }
 
 .skill__bar{
-    width: 60%;
+    width: 65%;
     background: var(--color-primary2);
     display: block;
     height: 6px;
-    border: 2px, solid rgba(0,0,0,0.3);
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 0 5px #0071e3b3;
+    margin-left: 5px;
 }
 .skill__bar span{
     height: 6px;
