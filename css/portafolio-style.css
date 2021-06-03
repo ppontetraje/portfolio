@@ -513,7 +513,7 @@ nav > a:hover{
 
 /* RESPONSIVE DESIGN */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
     :root{
         --boton-padding:18px 40px;
     }
