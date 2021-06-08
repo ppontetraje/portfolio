@@ -584,6 +584,10 @@ p{
     .nav__items--footer{
         border: none;
     }
+    .nav--footer{
+        justify-content: center;
+
+    }
     .hero__texts{
         width: 100%;
         margin-bottom: 80px;
@@ -681,6 +685,12 @@ p{
         padding: 5 10px;
         border: 0;
     }
+    .nav--footer{
+        font-size: 0.9rem;
+
+    }
+
+    
 
     .hero__texts{
         text-align: center;
@@ -709,6 +719,9 @@ p{
     }
     .about__title{
         margin-bottom: 0;
+    }
+    .about__title--large{
+        font-size: 1.9rem;
     }
     .heading{
         text-align: center;
